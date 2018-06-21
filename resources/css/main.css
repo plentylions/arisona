@@ -39,6 +39,21 @@
     text-decoration: underline;
 }
 
+a{
+    color: #000;
+}
+a:hover{
+    color: #333;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
+    background-color: #000;
+    border-color: #000;
+}
+.cmp-product-thumb .add-to-basket-lg-container:hover{
+    border-color: transparent #000 transparent transparent;
+}
+
 @media (min-width: 768px){
     .anicon.anicon-search-xcross[aria-expanded="false"]:hover > .anicon-search-item:after {
         background: #fff;
