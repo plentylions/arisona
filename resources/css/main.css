@@ -18,6 +18,9 @@
     background-color: #fff;
     color: #555;
 }
+.cmp-country-settings ul li.active a, .cmp-currency-select ul li.active a{
+    background-color: #fff
+}
 
 .mobile-navigation{
     background: #000;
