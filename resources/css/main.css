@@ -15,6 +15,9 @@
 .footer{
     color: #999;
 }
+.footer hr{
+    border-color: #999
+}
 .footer a{
     color: #999;
 }
