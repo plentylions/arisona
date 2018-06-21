@@ -1,6 +1,6 @@
 <?php
 
-namespace Autooptimierer\Providers;
+namespace Arisona\Providers;
 
 use Ceres\Caching\NavigationCacheSettings;
 use Ceres\Caching\SideNavigationCacheSettings;
@@ -14,10 +14,10 @@ use Plenty\Plugin\ConfigRepository;
 
 
 /**
- * Class AutooptimiererServiceProvider
- * @package Autooptimierer\Providers
+ * Class ArisonaServiceProvider
+ * @package Arisona\Providers
  */
-class AutooptimiererServiceProvider extends ServiceProvider
+class ArisonaServiceProvider extends ServiceProvider
 {
     const PRIORITY = 0;
 
