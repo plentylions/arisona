@@ -54,6 +54,32 @@ a:hover{
     border-color: transparent #000 transparent transparent;
 }
 
+.btn-primary{
+    background-color: #000;
+    border-color: #000;
+}
+.btn-primary:hover,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle,
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .btn-primary.dropdown-toggle:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .btn-primary.dropdown-toggle:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle.focus {
+    background-color: #333;
+    border-color: #333;
+}
+
+.btn-outline-primary {
+    color: #000 !important;
+    background-image: none;
+    background-color: transparent;
+    border-color: #000;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus, .btn-outline-primary.focus,
+.btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle,
+.btn-outline-primary:active:hover, .btn-outline-primary.active:hover, .open > .btn-outline-primary.dropdown-toggle:hover, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .open > .btn-outline-primary.dropdown-toggle:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle.focus {
+    color: #fff !important;
+    background-color: #000;
+}
+
 @media (min-width: 768px){
     .anicon.anicon-search-xcross[aria-expanded="false"]:hover > .anicon-search-item:after {
         background: #fff;
