@@ -1,0 +1,16 @@
+.top-bar, 
+.wrapper-main .navbar{
+    background-color: #000;
+}
+
+.top-bar .controls-list .control-basket .toggle-basket-preview,
+.top-bar .controls-list .control-basket .toggle-basket-preview:hover,
+.top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], 
+.top-bar .controls-list > li a:not(.btn):hover{
+    background-color: #fff;
+    color: #555;
+}
+
+.top-bar .controls-list > li{
+    color: #ddd;
+}
