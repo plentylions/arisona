@@ -11,21 +11,6 @@
 .top-bar .controls-list > li{
     color: #ddd;
 }
-
-.footer{
-    color: #999;
-}
-.footer hr{
-    border-color: #999
-}
-.footer a{
-    color: #999;
-}
-.footer a:hover{
-    color: #999;
-    text-decoration: underline;
-}
-
 .top-bar .controls-list .control-basket .toggle-basket-preview,
 .top-bar .controls-list .control-basket .toggle-basket-preview:hover,
 .top-bar .controls-list > li a:not(.btn)[aria-expanded="true"], 
@@ -37,6 +22,18 @@
 .mobile-navigation{
     background: #000;
     color: #ddd;
+}
+
+.footer,
+.footer a{
+    color: #999;
+}
+.footer hr{
+    border-color: #999
+}
+.footer a:hover{
+    color: #999;
+    text-decoration: underline;
 }
 
 @media (min-width: 768px){
@@ -56,7 +53,6 @@
     #mainNavbarCollapsable ul.mainmenu > li > a:hover {
         color: #000;
     }
-
     nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li.level1 > a {
         color: #333;
     }
