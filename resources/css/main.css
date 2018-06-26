@@ -86,7 +86,8 @@ a:hover{
 .btn-outline-primary:focus, .btn-outline-primary.focus,
 .btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle,
 .btn-outline-primary.disabled:focus, .btn-outline-primary:disabled:focus, .btn-outline-primary.disabled.focus, .btn-outline-primary:disabled.focus,
-.btn-outline-primary:active:hover, .btn-outline-primary.active:hover, .open > .btn-outline-primary.dropdown-toggle:hover, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .open > .btn-outline-primary.dropdown-toggle:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle.focus {
+.btn-outline-primary:active:hover, .btn-outline-primary.active:hover, .open > .btn-outline-primary.dropdown-toggle:hover, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .open > .btn-outline-primary.dropdown-toggle:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle.focus,
+.widget-item-list.widget-primary .widget-caption {
     color: #fff !important;
     background-color: #000;
 }
